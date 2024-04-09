@@ -115,7 +115,7 @@ def add_amounts_to_employee_info():
         for employee in employee_info:
             print(f"E Name: {employee.name}, Amount: {employee.amount}")
             # Check if the names match
-            if employee.name in payment.name:
+            if payment.name in employee.name:
                 # Add the amount to the employee object
                 employee.amount = payment.amount
                 print(f"Added amount: {employee.amount} to employee: {employee.name} from payment: {payment.name}")
