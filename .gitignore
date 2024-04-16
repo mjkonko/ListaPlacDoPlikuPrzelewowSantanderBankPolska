@@ -1,2 +1,6 @@
 /e.pdf
 /przelewy_baza.txt
+/output.txt
+.venv
+.vscode
+__pycache__
